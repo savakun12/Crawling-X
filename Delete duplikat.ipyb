@@ -1,0 +1,16 @@
+import pandas as pd
+
+# Path file Excel yang ingin dihapus duplikatnya
+file_path = '/content/tweets_motor_listrik.xlsx'
+
+# Membaca file Excel ke dalam DataFrame
+df = pd.read_excel(file_path)
+
+# Menghapus duplikat berdasarkan kolom 'Isi Tweet'
+df.drop_duplicates(subset=['Isi Tweet'], keep='first', inplace=True)
+
+# Menyimpan DataFrame yang telah dihapus duplikat ke dalam file Excel baru
+output_excel_path = 'tweets_motor_listrik_no_duplicates.xlsx'
+df.to_excel(output_excel_path, index=False)
+
+print(f"Data tanpa duplikat telah disimpan ke dalam file Excel: {output_excel_path}")
