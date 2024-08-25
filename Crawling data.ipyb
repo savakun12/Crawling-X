@@ -22,7 +22,7 @@
 import pandas as pd
 
 # Twitter Auth Token
-twitter_auth_token = '9bac8dbf128dbfc9136e3cd22cd62e2a7a472d22'
+twitter_auth_token = ''
 
 # Crawling parameters
 filename = 'motor_listrik.csv'
