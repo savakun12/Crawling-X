@@ -1,7 +1,6 @@
 # Crawling-X
-Crawling X
-Digunakan untuk melakukan web scraping di media sosial Twitter atau yang sekarang disebut X, dengan memasukkan kata kunci tertentu maka proses web scraping dapat dilakukan. Aplikasi ini juga mempunyai fitur yang digunakan untuk menentukan rentang waktu yang dapat dimasukkan dalam aplikasi sebelum dijalankan.
+Used to perform web scraping on the social media platform Twitter, now known as X. By entering specific keywords, the web scraping process can be initiated. This application also features an option to set a time range that can be specified within the application before it is executed.
 # Syarat
 1. API
-2. Kata Kunci
-3. Rentang waktu
+2. Key Word
+3. Time Range
